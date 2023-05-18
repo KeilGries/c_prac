@@ -3,7 +3,7 @@
 int main(){
 
     printf("Suh World!?\n");
-    printf("Suh Dude!?");
+    printf("Suh Ma Drilla");
     return 0;
 
 }
