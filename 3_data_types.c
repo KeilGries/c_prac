@@ -6,7 +6,7 @@ int main(){
     char a = 'C';                   // single character %c
     char b[] = "Bro";               // array of characters %s
 
-    float c = 3.141592;             // 4 bytes (32 buts of precision) 6 - 7 digits %f
+    float c = 3.141592;             // 4 bytes (32 bits of precision) 6 - 7 digits %f
     double d = 3.141592653589793;   // 8 bytes (64 bits of precision) 15 - 16 digits %lf
  
 
@@ -23,7 +23,7 @@ int main(){
 
     long long int l = 9223372036854775807;              // 8 bytes (-9 quintillion to +9 quintillion) %lld
     unsigned long long int m = 18446744073709551615U;   // 8 bytes (0 to 18 quintillion) %llu
-    // 'U' must be included at the end of long long int in order to prevent an error from displaying
+    // 'U' must be included at the end of unsigned long long int in order to prevent an error from displaying
 
     return 0;
 }
